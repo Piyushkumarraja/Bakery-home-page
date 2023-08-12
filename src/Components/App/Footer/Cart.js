@@ -115,6 +115,7 @@ const Cart = (props) => {
                         <Button variant='contained' color={'secondary'} onClick={() => {
                             handleClose()
                             alert("Order placed successfully.")
+                            location.reload();
                         }}>Place Order</Button>
                     </div>
                 </div>
